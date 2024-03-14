@@ -1,0 +1,133 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.titles {
+  padding: 20px;
+}
+
+#main-title-div h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+#subtitle-div {
+  text-align: center;
+}
+
+#main-content {
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-div {
+  vertical-align: top;
+
+  display: inline-block;
+  width: 45%;
+  position: relative;
+  margin: 2.5%;
+}
+
+#skills-div {
+  width: 15%;
+}
+
+#to-learn-lang-div {
+  width: 25%;
+}
+
+.content-title {
+  font-size: 36px;
+}
+
+.list li {
+  margin: 5px 0px 5px 20px;
+}
+
+.list li:hover {
+  background-color: #bcbcbc;
+}
+
+#future-content #run {
+  background-color: red;
+  color: red;
+  font-size: 40px;
+}
+
+#future-content #run:hover {
+  color: #fff;
+}
+
+#future-content #class {
+  font-size: 48px;
+  color: #1b813e;
+}
+
+body {
+  background-image: url(./bg.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.hidden-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.hidden-img img {
+  width: 20%;
+  opacity: 0%;
+}
+
+@keyframes showup {
+  to {
+    opacity: 100%;
+  }
+}
+
+.hidden-img img:hover {
+  animation: showup 0.5s;
+  animation-fill-mode: forwards;
+}
+
+#first-row {
+  min-height: 25vh;
+  max-height: 100vh;
+}
+
+.title-img img {
+  width: 20vw;
+  margin: 0 20vw;
+}
+
+li a {
+  color: #78c2c4;
+  text-decoration: none;
+  display: block;
+}
+
+li a:hover {
+  color: white;
+  cursor:pointer;
+}
+
+#skills-display-hint {
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  background-color: #000;
+  width: 100%;
+  height: 125px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h3 {
+  color: #fff;
+}
