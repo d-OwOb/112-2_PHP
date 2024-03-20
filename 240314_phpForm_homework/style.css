@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: rgb(63, 210, 233);
+  background: radial-gradient(
+    circle,
+    rgba(63, 210, 233, 1) 0%,
+    rgba(132, 244, 255, 1) 45%,
+    rgba(35, 218, 227, 1) 100%
+  );
+}
+
+#header {
+  position: relative;
+  width: 100vw;
+  height: 12vh;
+  background-color: #000;
+}
+
+#title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 48px;
+  color: white;
+}
+
+.main-form {
+  border-radius: 40px;
+  padding: 20px 0px;
+  background-color: #fff;
+  position: relative;
+  margin-top: 50px;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  width: 40vw;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.input-area {
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.input-area-div {
+  border-radius: 40px;
+  background-color: #d7d7d7;
+  width: 80%;
+  height: 100%;
+  display: inline-block;
+}
+
+.note-text {
+  text-align: center;
+  height: 100%;
+  font-size: 24px;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.checkbox-area-div {
+  display: inline-block;
+  width: 80%;
+}
+.checkbox-area {
+  display: inline-block;
+}
+
+.checkbox-area-div span {
+  font-size: 24px;
+  font-family: "Noto Sans TC", sans-serif;
+  margin-right: 15px;
+}
+
+.plan-area-div {
+  width: 80%;
+  display: inline-block;
+}
+
+#plan-select-area {
+  font-size: 24px;
+  width: 100%;
+}
+
+.advice-area-div {
+  border-radius: 20px;
+  background-color: #d7d7d7;
+  width: 80%;
+  height: 15vh;
+}
+
+#adv-input-area {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff00;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.btn-row {
+  justify-content: space-around;
+}
+
+.btn {
+  font-family: "Noto Sans TC", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px;
+}
+
+#submit-btn {
+  border: #fff 1px solid;
+  color: #156a11;
+  background-color: #8eff88;
+}
+
+@keyframes submitHover {
+  to {
+    background-color: #fff;
+    border: #156a11 1px solid;
+  }
+}
+
+#submit-btn:hover {
+  animation: submitHover 0.3s;
+  animation-fill-mode: forwards;
+}
+
+#reset-btn {
+  color: #a51313;
+  background-color: #ffa2a2;
+}
+
+.last-row {
+  margin-bottom: 50px;
+}
+
+/* //////////////////result.php //////////////////*/
+
+.mainArea {
+  position: relative;
+  margin: 20px 0px;
+  height: 80vh;
+  width: 60vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+  background-color: #fff;
+}
+
+#status-area {
+  padding: 40px 0px;
+  display: inline-block;
+  width: 100%;
+  height: 30%;
+}
+.text {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+#status {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+  font-size: 84px;
+  margin-bottom: 10px;
+}
+
+#note {
+  width: 100%;
+  height: 30%-5px;
+  text-align: center;
+  font-size: 24px;
+}
+.info-row {
+  display: flex;
+  margin: 10px 0px;
+  padding: 0px 20px;
+  justify-content: flex-start;
+}
+.info-text {
+  line-height: 40px;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.note {
+  padding-right: 20px;
+  text-align: right;
+  width: 15%;
+}
+.content {
+  width: 85%;
+}
+
+.checkemail {
+    width: 50vw;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: 8vh;
+    transform: translateX(-50%);
+  font-size: 36px;
+  font-weight: 700;
+  color: red;
+}
