@@ -1,0 +1,64 @@
+#login-base{
+    background-color: white;
+    width: 40vw;
+    height: 60vh;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15vh;
+    border-radius: 40px;
+}
+
+.title-area{
+    font-size: 48px;
+    padding-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+} 
+
+.input-row{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    vertical-align: middle;
+    margin-bottom: 1vh;
+}
+
+.note-text{
+    margin-right: 1vw;
+}
+
+.input-area-div{
+    position: relative;
+    width: 40%;
+}
+
+.input-area
+{
+    width: 100%;
+}
+
+.passVisCtrl{
+    border-radius:5px ;
+    padding: 15px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-image: url(../asset/eye.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+.visable{
+    background-image: url(../asset/hide.png);
+
+}
+
+.passVisCtrl:hover{
+    background-color: #b7b7b7;
+}
+
+.space{
+    height: 10vh;
+}
