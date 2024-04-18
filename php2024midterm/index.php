@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <H1>240418PHP期中考--論文投稿系統</H1>
     <form action="check.php" method="post">
         <span>請選擇角色</span>
         <select name="char" id="">
